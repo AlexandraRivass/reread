@@ -1,0 +1,96 @@
+body{
+    font-family: 'Courier Prime', system-ui;
+    font-weight: 700;
+    font-style: normal;
+}
+.titulo{
+    font-size: 4.5rem;
+    font-family: 'Courier Prime', system-ui;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.fondocolor{
+    background-color: #0b5345;
+}
+
+.textoblanco{
+    color: aliceblue;
+}
+
+.margen{
+    margin-top: 5%;
+    margin-right: 20%;
+    margin-left: 20%;
+    text-align: center;
+}
+.margen1{
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+.margen2{
+    margin-top: 3%;
+    margin-left: 8%;
+    margin-right: 8%;
+}
+.margen3{
+    margin-top: 2%;
+    margin-bottom: 3%;
+}
+.estilo1{
+    font-family: 'Courier Prime', system-ui;
+    font-weight: bold; /* Hace que el texto sea negrita */
+    font-style: normal;
+    font-size: 1.2rem;
+
+}
+.textomedio{
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: 8%;
+    margin-right: 2%;
+    margin-left: 2%;
+    font-size: 0.9rem;
+
+}
+
+/* Color del texto de las pestañas no activas */
+.nav-tabs .nav-link {
+    color: rgb(0, 0, 0); /* Cambia el color del texto de las pestañas no activas a blanco */
+}
+
+/* Estilos para la pestaña activa */
+.nav-tabs .nav-link.active {
+    background-color: #D35500; /* Fondo naranja para la pestaña activa */
+    color: rgb(255, 255, 255); /* Texto blanco para la pestaña activa */
+    border-color: #D35500; /* Borde naranja para la pestaña activa */
+}
+
+/* Línea naranja debajo de las pestañas */
+.nav-tabs {
+    border-bottom: 3px solid #D35500; /* Línea naranja debajo de las pestañas */
+}
+.modelo { 
+    background-color: #11796B;
+    color: white;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+@media (max-width: 768px) {
+    .nav-tabs {
+      flex-direction: column; /* Apila los botones verticalmente */
+    }
+  
+    .custom-tab {
+      width: 100%;
+      text-align: center;
+      margin-bottom: 5px; /* Espacio entre botones */
+    }
+    img {
+        width: 85%; 
+        margin: 0 auto; /* para centrar la imagen */
+        display: block; /* para que el margin auto funcione correctamente */
+      }
+  }
